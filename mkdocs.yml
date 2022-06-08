@@ -7,6 +7,8 @@ plugins:
   - techdocs-core
 
 nav:
+  - Testing:
+      - Whats is what what: 'test/test.md'
   - Overview:
       - What is Backstage?: 'overview/what-is-backstage.md'
       - Architecture overview: 'overview/architecture-overview.md'
