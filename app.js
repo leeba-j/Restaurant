@@ -6,8 +6,11 @@ dotenv.config();
 const PORT = process.env.PORT;
 const mongoUrl = process.env.MONGO_URL;
 const database = require("./database");
+const cors = require("cors");
 
 const schema = require("./main-graphql-schema");
+
+app.use(cors());
 
 app.use(
   "/api/graphql",
